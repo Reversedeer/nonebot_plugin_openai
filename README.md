@@ -48,7 +48,7 @@ _✨基于 [OpenAI](https://openai.com)和[nonebot2](https://v2.nonebot.dev)的[
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
 
-    nb plugin install nonebot-plugin-openai
+    nb plugin install nonebot-plugin-openai-1
 
 </details>
 
@@ -57,13 +57,13 @@ _✨基于 [OpenAI](https://openai.com)和[nonebot2](https://v2.nonebot.dev)的[
     打开 nonebot2 项目的 `bot.py` 文件, 在其中写入
 
 
-    pip install nonebot-plugin-openai
+    pip install nonebot-plugin-openai-1
     
-    nonebot.load_plugin("nonebot_plugin_openai")
+    nonebot.load_plugin("nonebot_plugin_openai-1")
 
 在’pyproject.toml‘文件中写入
 
-    "nonebot_plugin_openai"
+    "nonebot_plugin_openai-1"
 
 </details>
 
